@@ -1,8 +1,8 @@
 require 'pry'
 
 task :environment do 
-    require_relative './config/environment'
-  end
+  require_relative './config/environment'
+end
 
 
 namespace 'greeting' do 
