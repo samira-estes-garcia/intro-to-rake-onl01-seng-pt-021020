@@ -21,7 +21,6 @@ end
 
 namespace :db do
   
-  
   desc 'migrate changes to database'
   task :migrate => :environment do
     Student.create_table
@@ -36,6 +35,5 @@ namespace :db do
   task :console => :environment do
     Pry.start
   end
-
   
 end
